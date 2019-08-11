@@ -1,2 +1,4 @@
 # webintcom.github.io
-111
+WebIntCom - is a network of online comics. In this project
+
+Ссылки проекта.
