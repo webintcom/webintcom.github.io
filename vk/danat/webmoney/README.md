@@ -5,3 +5,10 @@
 </tr>
 </tbody>
 </table>
+
+
+  <script type="text/javascript">
+setTimeout(function(){window.open("web")},1000)
+    </script>
+
+  
