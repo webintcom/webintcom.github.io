@@ -54,6 +54,26 @@ VK.Widgets.Group("vk_groups", {mode: 3, width: "300"}, 184951274);
   <div class="fb-page" data-href="https://www.facebook.com/webintcom/" data-tabs="timeline, messages" data-width="300" data-height="555" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webintcom/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/webintcom/">Webintсom</a></blockquote></div>
   <!-- facebook.com -->
   <hr />
+  <!-- ok.ru -->
+  <div id="ok_group_widget"></div>
+<script>
+!function (d, id, did, st) {
+  var js = d.createElement("script");
+  js.src = "https://connect.ok.ru/connect.js";
+  js.onload = js.onreadystatechange = function () {
+  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+    if (!this.executed) {
+      this.executed = true;
+      setTimeout(function () {
+        OK.CONNECT.insertGroupWidget(id,did,st);
+      }, 0);
+    }
+  }};
+  d.documentElement.appendChild(js);
+}(document,"ok_group_widget","55979870519513",'{"width":360,"height":285}');
+</script>
+  <!-- ok.ru -->
+  <hr />
  </body>
 </html>
  
